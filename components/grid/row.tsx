@@ -10,7 +10,7 @@ if (typeof window !== 'undefined') {
       removeListener() {},
     };
   };
-  window.matchMedia = window.matchMedia || matchMediaPolyfill;
+  // window.matchMedia = window.matchMedia || matchMediaPolyfill;
   enquire = require('enquire.js');
 }
 

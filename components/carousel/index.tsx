@@ -12,7 +12,7 @@ if (typeof window !== 'undefined') {
       removeListener() {},
     };
   };
-  window.matchMedia = window.matchMedia || matchMediaPolyfill;
+  // window.matchMedia = window.matchMedia || matchMediaPolyfill;
 }
 // Use require over import (will be lifted up)
 // make sure matchMedia polyfill run before require('react-slick')

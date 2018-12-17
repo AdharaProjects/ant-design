@@ -2,15 +2,6 @@
 // https://github.com/WickyNilliams/enquire.js/issues/82
 let enquire: any;
 if (typeof window !== 'undefined') {
-  const matchMediaPolyfill = (mediaQuery: string) => {
-    return {
-      media: mediaQuery,
-      matches: false,
-      addListener() {},
-      removeListener() {},
-    };
-  };
-  // window.matchMedia = window.matchMedia || matchMediaPolyfill;
   enquire = require('enquire.js');
 }
 
